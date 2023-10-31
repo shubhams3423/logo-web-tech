@@ -1,0 +1,82 @@
+.sidebar1 {
+    background-color: #062541;
+    width: 14rem;
+    height: 100%;
+    padding: 16px;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    box-sizing: border-box;
+    transition-property: width;
+    transition-duration: 1s;
+}
+
+.sidebar2 {
+    background-color: #062541;
+    width: 2.5rem;
+    height: 100%;
+    padding: 16px 6px;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    box-sizing: border-box;
+    transition-property: width;
+    transition-duration: 1s;
+}
+
+.sideMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.active {
+    opacity: 60%;
+}
+
+.sideMenu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.menuIcon1 {
+    position: absolute;
+    left: 11.5rem;
+    background-color: #f7f7f7;
+    border-radius: 53%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 3px;
+    width: 20px;
+    height: 20px;
+    color: black;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.menuIcon2 {
+    position: absolute;
+    left: 6px;
+    background-color: #f7f7f7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    width: 20px;
+    height: 20px;
+    color: black;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+/* Auth Section */
+.authSection {
+    display: flex;
+    align-items: flex-end;
+}
