@@ -1,0 +1,8 @@
+.mainContainer {
+    display: flex;
+    height: 100%;
+}
+
+.webPageContainer {
+    padding: 2rem;
+}
